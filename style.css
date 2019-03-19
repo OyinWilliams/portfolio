@@ -1,0 +1,153 @@
+body {
+margin: 0px;
+min-height: 98vh;
+background: #000000;
+color: #ffffff;
+overflow-x: hidden;
+font-family:'Josefin Sans', sans-serif;
+border: solid 6px #0343E8;
+}
+.logo{
+width: 50px;
+margin: 30px 0px 20px 50px;
+}
+#box_1 {
+position: absolute;
+width: 30%;
+height: 1024px;
+left: 486px;
+top: 0px;
+background: #0D0D0D;
+}
+.header {
+position: absolute;
+width: 70%;
+left: 50px;
+top: 160px;
+line-height: 40px;
+}
+.header h1 {
+font-weight: bolder;
+font-size: 80px;
+}
+.header h3 {
+font-weight: lighter;
+font-size: 18px;
+}
+nav {
+float: right;
+height: 273px;
+margin: 20px 50px 20px 0px;
+}
+.highlight {
+border-bottom: 2px solid #0343E8;
+}
+.highlight_1 {
+padding-bottom: 20px;
+}
+a {
+cursor: pointer;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+text-decoration: none;
+text-transform: uppercase;
+color: #ffffff;
+}
+nav a {
+font-size: 18px;
+font-weight: lighter;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.1em;
+display: block;
+}
+nav a:hover {
+border-right: 2px solid #0343E8;
+transition: 0.3s ease-in;
+}
+.button_dark {
+width: auto;
+left: 123px;
+top: 623px;
+float: left;
+background: #0343E8;
+padding: 10px 30px 10px 30px;
+color: #ffffff;
+text-transform: uppercase;
+}
+.button_dark:hover {
+background: none;
+border: solid 1px #0343E8;
+transition: 0.2s ease-out;
+}
+.button_light {
+float: left;
+margin-left: 20px;
+width: auto;
+border: solid 1px #0343E8;
+padding: 10px 30px 10px 30px;
+text-transform: uppercase;
+color: #ffffff;
+}
+.button_light:hover {
+background: #0343E8;
+transition: 0.2s ease-out;
+border: solid 1px #0343E8;
+}
+footer{
+margin-top: 500px;
+text-align: center;
+}
+
+/* RWD */
+
+@media screen and (max-width: 768px) {
+body {
+margin: 0px;
+border: solid 6px #0343E8;
+min-height: 110vh;
+}
+.logo{
+width: 45px;
+margin: 40px 0px 0px 50px;
+}
+nav {
+float: right;
+margin: 60px 0px 20px 10px;
+}
+nav a {
+text-align: right;
+margin-right: 20px;
+letter-spacing: 0.1em;
+display: inline;
+}
+nav a:hover {
+border-bottom: 2px solid #0343E8;
+transition: 0.3s ease-in;
+}
+.header h1 {
+font-weight: bolder;
+font-size: 45px;
+}
+.header {
+top: 120px;
+}
+.button_dark {
+left: 23px;
+width: auto;
+padding: 10px 12px 10px 12px;
+}
+.button_light {
+margin-left: 10px;
+border: solid 1px #0343E8;
+padding: 10px 12px 10px 12px;
+text-transform: uppercase;
+color: #ffffff;
+}
+footer{
+margin-top: 700px;
+clear: both;
+text-align: center;
+}
+}
