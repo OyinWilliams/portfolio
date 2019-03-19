@@ -102,11 +102,12 @@ text-align: center;
 
 /* RWD */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 body {
+padding: 10px;
 margin: 0px;
 border: solid 6px #0343E8;
-min-height: 110vh;
+max-height: 70vh;
 }
 .logo{
 width: 45px;
@@ -132,16 +133,17 @@ font-size: 45px;
 }
 .header {
 top: 120px;
+margin-left: 50px;
 }
 .button_dark {
 left: 23px;
 width: auto;
-padding: 10px 12px 10px 12px;
+padding: 10px 15px 10px 15px;
 }
 .button_light {
 margin-left: 10px;
 border: solid 1px #0343E8;
-padding: 10px 12px 10px 12px;
+padding: 10px 15px 10px 15px;
 text-transform: uppercase;
 color: #ffffff;
 }
