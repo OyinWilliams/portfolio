@@ -62,7 +62,7 @@ border: none;
 margin: 20px 0px 0px 0px;
 float: left;
 background: #0343E8;
-padding: 7px 30px 7px 30px;
+padding: 5px 30px 5px 30px;
 color: #ffffff;
 text-transform: uppercase;
 }
@@ -128,16 +128,14 @@ margin-left: 20px;
 }
 .button_dark {
 border: none;
-font-size: 12px; 
 margin-left: 0px;
 width: auto;
-padding: 5px 10px 5px 10px;
+padding: 5px 12px 5px 12px;
 }
 .button_light {
-font-size: 12px; 
 margin-left: 10px;
 border: solid 1px #0343E8;
-padding: 5px 10px 5px 10px;
+padding: 5px 12px 5px 12px;
 text-transform: uppercase;
 color: #ffffff;
 }
