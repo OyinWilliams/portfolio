@@ -59,7 +59,7 @@ transition: 0.3s ease-in;
 .button_dark {
 width: auto;
 border: none;
-margin: 20px 0px 0px 50px;
+margin: 20px 0px 0px 10px;
 float: left;
 background: #0343E8;
 padding: 7px 30px 7px 30px;
