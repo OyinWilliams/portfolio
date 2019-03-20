@@ -104,14 +104,14 @@ text-align: center;
 
 @media screen and (max-width: 800px) {
 body {
-padding: 10px;
+padding: 0px;
 margin: 0px;
 border: solid 6px #0343E8;
-max-height: 70vh;
+max-height: 100vh;
 }
 .logo{
 width: 45px;
-margin: 40px 0px 0px 50px;
+margin: 40px 0px 0px 30px;
 }
 nav {
 float: right;
@@ -133,10 +133,10 @@ font-size: 45px;
 }
 .header {
 top: 120px;
-margin-left: 50px;
+margin-left: 30px;
 }
 .button_dark {
-left: 23px;
+left: 10px;
 width: auto;
 padding: 5px 10px 5px 10px;
 }
