@@ -48,7 +48,7 @@ color: #ffffff;
 nav a {
 font-size: 18px;
 font-weight: lighter;
-line-height: 40px;
+line-height: 30px;
 text-align: right;
 display: block;
 }
@@ -86,7 +86,7 @@ transition: 0.2s ease-out;
 border: solid 1px #0343E8;
 }
 footer{
-margin-top: 700px;
+margin-top: 600px;
 text-align: center;
 }
 
