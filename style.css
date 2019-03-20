@@ -9,12 +9,12 @@ border: solid 6px #0343E8;
 }
 .logo{
 width: 50px;
-margin: 30px 0px 20px 50px;
+margin: 30px 0px 20px 70px;
 }
 .header {
 position: absolute;
 width: 70%;
-margin: 160px 0px 0px 50px;
+margin: 80px 0px 0px 70px;
 line-height: 40px;
 }
 .header h1 {
@@ -48,9 +48,8 @@ color: #ffffff;
 nav a {
 font-size: 18px;
 font-weight: lighter;
-line-height: 20px;
+line-height: 40px;
 text-align: right;
-letter-spacing: 0.1em;
 display: block;
 }
 nav a:hover {
