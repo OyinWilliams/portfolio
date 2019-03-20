@@ -59,7 +59,7 @@ transition: 0.3s ease-in;
 }
 .button_dark {
 width: auto;
-margin: 623px 0px 0px 123px;
+margin: 20px 0px 0px 50px;
 float: left;
 background: #0343E8;
 padding: 7px 30px 7px 30px;
@@ -73,7 +73,7 @@ transition: 0.2s ease-out;
 }
 .button_light {
 float: left;
-margin-left: 20px;
+margin: 20px 0px 0px 20px;
 width: auto;
 border: solid 1px #0343E8;
 padding: 5px 30px 5px 30px;
