@@ -36,7 +36,7 @@ font-size: 16px;
 }
 nav {
 float: right;
-height: 273px;
+height: 200px;
 margin: 20px 50px 20px 0px;
 }
 .blurb {
@@ -229,6 +229,7 @@ margin: 40px 0px 0px 20px;
 nav {
 float: right;
 margin: 50px 0px 0px 10px;
+height: 150px;
 }
 nav a {
 text-align: right;
